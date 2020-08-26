@@ -1,0 +1,23 @@
+{
+    "name": "soares/dio_cep",
+    "description": "Busca de cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paulo Soares",
+            "email": "soaresprogramador@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.9"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Soares\\Dio_Cep\\": "src/"
+        }
+    }
+}
